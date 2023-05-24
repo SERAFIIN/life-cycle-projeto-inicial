@@ -30,5 +30,6 @@ export class InputComponent implements OnInit, OnChanges {
 
   limparCampo() {
     this.valorItem = '';
+    console.log('teste')
   }
 }
